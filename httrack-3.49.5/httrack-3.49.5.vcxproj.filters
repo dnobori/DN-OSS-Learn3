@@ -1,0 +1,1224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="httrack-3.49.5">
+      <UniqueIdentifier>{D3FB4BF5-D674-49E3-B8CA-3E962A95C021}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="httrack-3.49.5\debian">
+      <UniqueIdentifier>{4889923A-137B-4A6A-AB5A-783D680ABF80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="httrack-3.49.5\debian\source">
+      <UniqueIdentifier>{861AA29D-2289-444C-AFA6-1B98CE75D565}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="httrack-3.49.5\html">
+      <UniqueIdentifier>{205DD9FF-AEED-41F4-AF4D-D06DE26E22C0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="httrack-3.49.5\html\div">
+      <UniqueIdentifier>{BF2650F7-75BD-46E7-8C9C-4388C302DE6A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="httrack-3.49.5\html\images">
+      <UniqueIdentifier>{5D6459F3-54DC-4FF1-9484-5911895970AB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="httrack-3.49.5\html\img">
+      <UniqueIdentifier>{F0502804-7F95-4912-A0C8-3D1B34E59327}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="httrack-3.49.5\html\server">
+      <UniqueIdentifier>{6E138E20-584A-4AEC-B8F2-3C0BF2337EE0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="httrack-3.49.5\html\server\div">
+      <UniqueIdentifier>{C0A7F77E-61EF-43C6-AE56-95EAA2AE210B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="httrack-3.49.5\html\server\div\16x16">
+      <UniqueIdentifier>{55FDEB15-A83C-48E4-A677-ACDDAD7B87CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="httrack-3.49.5\html\server\div\32x32">
+      <UniqueIdentifier>{A4A32CEA-F249-414F-ADE9-BCDA0A636610}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="httrack-3.49.5\html\server\div\48x48">
+      <UniqueIdentifier>{410413B3-8BB0-4A08-96F3-FA4A0727096B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="httrack-3.49.5\html\server\images">
+      <UniqueIdentifier>{1C8B00FC-CA8D-4A19-869F-552B6E0DBDC6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="httrack-3.49.5\lang">
+      <UniqueIdentifier>{36E9CACA-4E7D-47C8-A25E-4A2AF779623B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="httrack-3.49.5\libtest">
+      <UniqueIdentifier>{6D21DB6F-A9A2-438E-8D92-425B6B4F0BB3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="httrack-3.49.5\m4">
+      <UniqueIdentifier>{D9AB2C72-6102-432B-A877-5B69B2B64EFF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="httrack-3.49.5\man">
+      <UniqueIdentifier>{3D1243DD-DEA6-4585-A03F-856EB65CBB26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="httrack-3.49.5\src">
+      <UniqueIdentifier>{CE4D5510-EC76-483A-B8D8-02274DCC28D6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="httrack-3.49.5\src\minizip">
+      <UniqueIdentifier>{880258B4-5CF5-4676-BAAB-563FA8CFEF21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="httrack-3.49.5\src\proxy">
+      <UniqueIdentifier>{E904F6B6-B97E-42AE-84A4-81CD8C2AA3C1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="httrack-3.49.5\templates">
+      <UniqueIdentifier>{FFC9BB67-BA02-489B-8EF2-4308317BD5B2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="httrack-3.49.5\tests">
+      <UniqueIdentifier>{C16B8383-A195-4F50-B2FC-A28A7D215C70}</UniqueIdentifier>
+    </Filter>
+
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="httrack-3.49.5\libtest\example-main.h">
+      <Filter>httrack-3.49.5\libtest</Filter>
+    </ClInclude>
+    <ClInclude Include="httrack-3.49.5\src\minizip\crypt.h">
+      <Filter>httrack-3.49.5\src\minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="httrack-3.49.5\src\minizip\ioapi.h">
+      <Filter>httrack-3.49.5\src\minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="httrack-3.49.5\src\minizip\iowin32.h">
+      <Filter>httrack-3.49.5\src\minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="httrack-3.49.5\src\minizip\mztools.h">
+      <Filter>httrack-3.49.5\src\minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="httrack-3.49.5\src\minizip\unzip.h">
+      <Filter>httrack-3.49.5\src\minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="httrack-3.49.5\src\minizip\zip.h">
+      <Filter>httrack-3.49.5\src\minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="httrack-3.49.5\src\proxy\proxystrings.h">
+      <Filter>httrack-3.49.5\src\proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="httrack-3.49.5\src\proxy\proxytrack.h">
+      <Filter>httrack-3.49.5\src\proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="httrack-3.49.5\src\proxy\store.h">
+      <Filter>httrack-3.49.5\src\proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="httrack-3.49.5\src\htsalias.h">
+      <Filter>httrack-3.49.5\src</Filter>
+    </ClInclude>
+    <ClInclude Include="httrack-3.49.5\src\htsarrays.h">
+      <Filter>httrack-3.49.5\src</Filter>
+    </ClInclude>
+    <ClInclude Include="httrack-3.49.5\src\htsback.h">
+      <Filter>httrack-3.49.5\src</Filter>
+    </ClInclude>
+    <ClInclude Include="httrack-3.49.5\src\htsbase.h">
+      <Filter>httrack-3.49.5\src</Filter>
+    </ClInclude>
+    <ClInclude Include="httrack-3.49.5\src\htsbasenet.h">
+      <Filter>httrack-3.49.5\src</Filter>
+    </ClInclude>
+    <ClInclude Include="httrack-3.49.5\src\htsbauth.h">
+      <Filter>httrack-3.49.5\src</Filter>
+    </ClInclude>
+    <ClInclude Include="httrack-3.49.5\src\htscache.h">
+      <Filter>httrack-3.49.5\src</Filter>
+    </ClInclude>
+    <ClInclude Include="httrack-3.49.5\src\htscatchurl.h">
+      <Filter>httrack-3.49.5\src</Filter>
+    </ClInclude>
+    <ClInclude Include="httrack-3.49.5\src\htscharset.h">
+      <Filter>httrack-3.49.5\src</Filter>
+    </ClInclude>
+    <ClInclude Include="httrack-3.49.5\src\htscodepages.h">
+      <Filter>httrack-3.49.5\src</Filter>
+    </ClInclude>
+    <ClInclude Include="httrack-3.49.5\src\htsconfig.h">
+      <Filter>httrack-3.49.5\src</Filter>
+    </ClInclude>
+    <ClInclude Include="httrack-3.49.5\src\htscore.h">
+      <Filter>httrack-3.49.5\src</Filter>
+    </ClInclude>
+    <ClInclude Include="httrack-3.49.5\src\htscoremain.h">
+      <Filter>httrack-3.49.5\src</Filter>
+    </ClInclude>
+    <ClInclude Include="httrack-3.49.5\src\htsdefines.h">
+      <Filter>httrack-3.49.5\src</Filter>
+    </ClInclude>
+    <ClInclude Include="httrack-3.49.5\src\htsencoding.h">
+      <Filter>httrack-3.49.5\src</Filter>
+    </ClInclude>
+    <ClInclude Include="httrack-3.49.5\src\htsentities.h">
+      <Filter>httrack-3.49.5\src</Filter>
+    </ClInclude>
+    <ClInclude Include="httrack-3.49.5\src\htsfilters.h">
+      <Filter>httrack-3.49.5\src</Filter>
+    </ClInclude>
+    <ClInclude Include="httrack-3.49.5\src\htsftp.h">
+      <Filter>httrack-3.49.5\src</Filter>
+    </ClInclude>
+    <ClInclude Include="httrack-3.49.5\src\htsglobal.h">
+      <Filter>httrack-3.49.5\src</Filter>
+    </ClInclude>
+    <ClInclude Include="httrack-3.49.5\src\htshash.h">
+      <Filter>httrack-3.49.5\src</Filter>
+    </ClInclude>
+    <ClInclude Include="httrack-3.49.5\src\htshelp.h">
+      <Filter>httrack-3.49.5\src</Filter>
+    </ClInclude>
+    <ClInclude Include="httrack-3.49.5\src\htsindex.h">
+      <Filter>httrack-3.49.5\src</Filter>
+    </ClInclude>
+    <ClInclude Include="httrack-3.49.5\src\hts-indextmpl.h">
+      <Filter>httrack-3.49.5\src</Filter>
+    </ClInclude>
+    <ClInclude Include="httrack-3.49.5\src\htsjava.h">
+      <Filter>httrack-3.49.5\src</Filter>
+    </ClInclude>
+    <ClInclude Include="httrack-3.49.5\src\htslib.h">
+      <Filter>httrack-3.49.5\src</Filter>
+    </ClInclude>
+    <ClInclude Include="httrack-3.49.5\src\htsmd5.h">
+      <Filter>httrack-3.49.5\src</Filter>
+    </ClInclude>
+    <ClInclude Include="httrack-3.49.5\src\htsmodules.h">
+      <Filter>httrack-3.49.5\src</Filter>
+    </ClInclude>
+    <ClInclude Include="httrack-3.49.5\src\htsname.h">
+      <Filter>httrack-3.49.5\src</Filter>
+    </ClInclude>
+    <ClInclude Include="httrack-3.49.5\src\htsnet.h">
+      <Filter>httrack-3.49.5\src</Filter>
+    </ClInclude>
+    <ClInclude Include="httrack-3.49.5\src\htsopt.h">
+      <Filter>httrack-3.49.5\src</Filter>
+    </ClInclude>
+    <ClInclude Include="httrack-3.49.5\src\htsparse.h">
+      <Filter>httrack-3.49.5\src</Filter>
+    </ClInclude>
+    <ClInclude Include="httrack-3.49.5\src\htsrobots.h">
+      <Filter>httrack-3.49.5\src</Filter>
+    </ClInclude>
+    <ClInclude Include="httrack-3.49.5\src\htssafe.h">
+      <Filter>httrack-3.49.5\src</Filter>
+    </ClInclude>
+    <ClInclude Include="httrack-3.49.5\src\htsserver.h">
+      <Filter>httrack-3.49.5\src</Filter>
+    </ClInclude>
+    <ClInclude Include="httrack-3.49.5\src\htsstrings.h">
+      <Filter>httrack-3.49.5\src</Filter>
+    </ClInclude>
+    <ClInclude Include="httrack-3.49.5\src\htsthread.h">
+      <Filter>httrack-3.49.5\src</Filter>
+    </ClInclude>
+    <ClInclude Include="httrack-3.49.5\src\htstools.h">
+      <Filter>httrack-3.49.5\src</Filter>
+    </ClInclude>
+    <ClInclude Include="httrack-3.49.5\src\htsweb.h">
+      <Filter>httrack-3.49.5\src</Filter>
+    </ClInclude>
+    <ClInclude Include="httrack-3.49.5\src\htswizard.h">
+      <Filter>httrack-3.49.5\src</Filter>
+    </ClInclude>
+    <ClInclude Include="httrack-3.49.5\src\htswrap.h">
+      <Filter>httrack-3.49.5\src</Filter>
+    </ClInclude>
+    <ClInclude Include="httrack-3.49.5\src\htszlib.h">
+      <Filter>httrack-3.49.5\src</Filter>
+    </ClInclude>
+    <ClInclude Include="httrack-3.49.5\src\httrack.h">
+      <Filter>httrack-3.49.5\src</Filter>
+    </ClInclude>
+    <ClInclude Include="httrack-3.49.5\src\httrack-library.h">
+      <Filter>httrack-3.49.5\src</Filter>
+    </ClInclude>
+    <ClInclude Include="httrack-3.49.5\src\md5.h">
+      <Filter>httrack-3.49.5\src</Filter>
+    </ClInclude>
+    <ClInclude Include="httrack-3.49.5\src\punycode.h">
+      <Filter>httrack-3.49.5\src</Filter>
+    </ClInclude>
+
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="httrack-3.49.5\libtest\callbacks-example-baselinks.c">
+      <Filter>httrack-3.49.5\libtest</Filter>
+    </ClCompile>
+    <ClCompile Include="httrack-3.49.5\libtest\callbacks-example-changecontent.c">
+      <Filter>httrack-3.49.5\libtest</Filter>
+    </ClCompile>
+    <ClCompile Include="httrack-3.49.5\libtest\callbacks-example-contentfilter.c">
+      <Filter>httrack-3.49.5\libtest</Filter>
+    </ClCompile>
+    <ClCompile Include="httrack-3.49.5\libtest\callbacks-example-displayheader.c">
+      <Filter>httrack-3.49.5\libtest</Filter>
+    </ClCompile>
+    <ClCompile Include="httrack-3.49.5\libtest\callbacks-example-filename.c">
+      <Filter>httrack-3.49.5\libtest</Filter>
+    </ClCompile>
+    <ClCompile Include="httrack-3.49.5\libtest\callbacks-example-filename2.c">
+      <Filter>httrack-3.49.5\libtest</Filter>
+    </ClCompile>
+    <ClCompile Include="httrack-3.49.5\libtest\callbacks-example-filenameiisbug.c">
+      <Filter>httrack-3.49.5\libtest</Filter>
+    </ClCompile>
+    <ClCompile Include="httrack-3.49.5\libtest\callbacks-example-listlinks.c">
+      <Filter>httrack-3.49.5\libtest</Filter>
+    </ClCompile>
+    <ClCompile Include="httrack-3.49.5\libtest\callbacks-example-log.c">
+      <Filter>httrack-3.49.5\libtest</Filter>
+    </ClCompile>
+    <ClCompile Include="httrack-3.49.5\libtest\callbacks-example-simple.c">
+      <Filter>httrack-3.49.5\libtest</Filter>
+    </ClCompile>
+    <ClCompile Include="httrack-3.49.5\libtest\example-main.c">
+      <Filter>httrack-3.49.5\libtest</Filter>
+    </ClCompile>
+    <ClCompile Include="httrack-3.49.5\src\minizip\ioapi.c">
+      <Filter>httrack-3.49.5\src\minizip</Filter>
+    </ClCompile>
+    <ClCompile Include="httrack-3.49.5\src\minizip\iowin32.c">
+      <Filter>httrack-3.49.5\src\minizip</Filter>
+    </ClCompile>
+    <ClCompile Include="httrack-3.49.5\src\minizip\mztools.c">
+      <Filter>httrack-3.49.5\src\minizip</Filter>
+    </ClCompile>
+    <ClCompile Include="httrack-3.49.5\src\minizip\unzip.c">
+      <Filter>httrack-3.49.5\src\minizip</Filter>
+    </ClCompile>
+    <ClCompile Include="httrack-3.49.5\src\minizip\zip.c">
+      <Filter>httrack-3.49.5\src\minizip</Filter>
+    </ClCompile>
+    <ClCompile Include="httrack-3.49.5\src\proxy\main.c">
+      <Filter>httrack-3.49.5\src\proxy</Filter>
+    </ClCompile>
+    <ClCompile Include="httrack-3.49.5\src\proxy\proxytrack.c">
+      <Filter>httrack-3.49.5\src\proxy</Filter>
+    </ClCompile>
+    <ClCompile Include="httrack-3.49.5\src\proxy\store.c">
+      <Filter>httrack-3.49.5\src\proxy</Filter>
+    </ClCompile>
+    <ClCompile Include="httrack-3.49.5\src\htsalias.c">
+      <Filter>httrack-3.49.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="httrack-3.49.5\src\htsback.c">
+      <Filter>httrack-3.49.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="httrack-3.49.5\src\htsbauth.c">
+      <Filter>httrack-3.49.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="httrack-3.49.5\src\htscache.c">
+      <Filter>httrack-3.49.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="httrack-3.49.5\src\htscatchurl.c">
+      <Filter>httrack-3.49.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="httrack-3.49.5\src\htscharset.c">
+      <Filter>httrack-3.49.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="httrack-3.49.5\src\htsconcat.c">
+      <Filter>httrack-3.49.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="httrack-3.49.5\src\htscore.c">
+      <Filter>httrack-3.49.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="httrack-3.49.5\src\htscoremain.c">
+      <Filter>httrack-3.49.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="httrack-3.49.5\src\htsencoding.c">
+      <Filter>httrack-3.49.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="httrack-3.49.5\src\htsfilters.c">
+      <Filter>httrack-3.49.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="httrack-3.49.5\src\htsftp.c">
+      <Filter>httrack-3.49.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="httrack-3.49.5\src\htshash.c">
+      <Filter>httrack-3.49.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="httrack-3.49.5\src\htshelp.c">
+      <Filter>httrack-3.49.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="httrack-3.49.5\src\htsindex.c">
+      <Filter>httrack-3.49.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="httrack-3.49.5\src\htsjava.c">
+      <Filter>httrack-3.49.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="httrack-3.49.5\src\htslib.c">
+      <Filter>httrack-3.49.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="httrack-3.49.5\src\htsmd5.c">
+      <Filter>httrack-3.49.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="httrack-3.49.5\src\htsmodules.c">
+      <Filter>httrack-3.49.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="httrack-3.49.5\src\htsname.c">
+      <Filter>httrack-3.49.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="httrack-3.49.5\src\htsparse.c">
+      <Filter>httrack-3.49.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="httrack-3.49.5\src\htsrobots.c">
+      <Filter>httrack-3.49.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="httrack-3.49.5\src\htsserver.c">
+      <Filter>httrack-3.49.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="httrack-3.49.5\src\htsthread.c">
+      <Filter>httrack-3.49.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="httrack-3.49.5\src\htstools.c">
+      <Filter>httrack-3.49.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="httrack-3.49.5\src\htsweb.c">
+      <Filter>httrack-3.49.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="httrack-3.49.5\src\htswizard.c">
+      <Filter>httrack-3.49.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="httrack-3.49.5\src\htswrap.c">
+      <Filter>httrack-3.49.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="httrack-3.49.5\src\htszlib.c">
+      <Filter>httrack-3.49.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="httrack-3.49.5\src\httrack.c">
+      <Filter>httrack-3.49.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="httrack-3.49.5\src\md5.c">
+      <Filter>httrack-3.49.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="httrack-3.49.5\src\punycode.c">
+      <Filter>httrack-3.49.5\src</Filter>
+    </ClCompile>
+
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="httrack-3.49.5\debian\source\format">
+      <Filter>httrack-3.49.5\debian\source</Filter>
+    </None>
+    <None Include="httrack-3.49.5\debian\source\lintian-overrides">
+      <Filter>httrack-3.49.5\debian\source</Filter>
+    </None>
+    <None Include="httrack-3.49.5\debian\source\options">
+      <Filter>httrack-3.49.5\debian\source</Filter>
+    </None>
+    <None Include="httrack-3.49.5\debian\changelog">
+      <Filter>httrack-3.49.5\debian</Filter>
+    </None>
+    <None Include="httrack-3.49.5\debian\compat">
+      <Filter>httrack-3.49.5\debian</Filter>
+    </None>
+    <None Include="httrack-3.49.5\debian\control">
+      <Filter>httrack-3.49.5\debian</Filter>
+    </None>
+    <None Include="httrack-3.49.5\debian\copyright">
+      <Filter>httrack-3.49.5\debian</Filter>
+    </None>
+    <None Include="httrack-3.49.5\debian\httrack-doc.doc-base">
+      <Filter>httrack-3.49.5\debian</Filter>
+    </None>
+    <None Include="httrack-3.49.5\debian\httrack-doc.files">
+      <Filter>httrack-3.49.5\debian</Filter>
+    </None>
+    <None Include="httrack-3.49.5\debian\httrack-doc.lintian-overrides">
+      <Filter>httrack-3.49.5\debian</Filter>
+    </None>
+    <None Include="httrack-3.49.5\debian\libhttrack2.files">
+      <Filter>httrack-3.49.5\debian</Filter>
+    </None>
+    <None Include="httrack-3.49.5\debian\libhttrack2.lintian-overrides">
+      <Filter>httrack-3.49.5\debian</Filter>
+    </None>
+    <None Include="httrack-3.49.5\debian\libhttrack-dev.files">
+      <Filter>httrack-3.49.5\debian</Filter>
+    </None>
+    <None Include="httrack-3.49.5\debian\libhttrack-dev.lintian-overrides">
+      <Filter>httrack-3.49.5\debian</Filter>
+    </None>
+    <None Include="httrack-3.49.5\debian\libhttrack-swf1.files">
+      <Filter>httrack-3.49.5\debian</Filter>
+    </None>
+    <None Include="httrack-3.49.5\debian\proxytrack.files">
+      <Filter>httrack-3.49.5\debian</Filter>
+    </None>
+    <None Include="httrack-3.49.5\debian\rules">
+      <Filter>httrack-3.49.5\debian</Filter>
+    </None>
+    <None Include="httrack-3.49.5\debian\watch">
+      <Filter>httrack-3.49.5\debian</Filter>
+    </None>
+    <None Include="httrack-3.49.5\debian\webhttrack.files">
+      <Filter>httrack-3.49.5\debian</Filter>
+    </None>
+    <None Include="httrack-3.49.5\debian\webhttrack.lintian-overrides">
+      <Filter>httrack-3.49.5\debian</Filter>
+    </None>
+    <None Include="httrack-3.49.5\debian\webhttrack-common.files">
+      <Filter>httrack-3.49.5\debian</Filter>
+    </None>
+    <None Include="httrack-3.49.5\debian\webhttrack-common.lintian-overrides">
+      <Filter>httrack-3.49.5\debian</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\div\search.sh">
+      <Filter>httrack-3.49.5\html\div</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\images\bg_rings.gif">
+      <Filter>httrack-3.49.5\html\images</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\images\header_title_4.gif">
+      <Filter>httrack-3.49.5\html\images</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\images\screenshot_01.jpg">
+      <Filter>httrack-3.49.5\html\images</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\images\screenshot_01b.jpg">
+      <Filter>httrack-3.49.5\html\images</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\img\addurl1.gif">
+      <Filter>httrack-3.49.5\html\img</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\img\addurl2.gif">
+      <Filter>httrack-3.49.5\html\img</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\img\addurl3.gif">
+      <Filter>httrack-3.49.5\html\img</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\img\addurl4.gif">
+      <Filter>httrack-3.49.5\html\img</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\img\addurl5.gif">
+      <Filter>httrack-3.49.5\html\img</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\img\backblue.gif">
+      <Filter>httrack-3.49.5\html\img</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\img\fade.gif">
+      <Filter>httrack-3.49.5\html\img</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\img\httrack.gif">
+      <Filter>httrack-3.49.5\html\img</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\img\snap1_a.gif">
+      <Filter>httrack-3.49.5\html\img</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\img\snap1_b.gif">
+      <Filter>httrack-3.49.5\html\img</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\img\snap1_c.gif">
+      <Filter>httrack-3.49.5\html\img</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\img\snap2_a.gif">
+      <Filter>httrack-3.49.5\html\img</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\img\snap2_b.gif">
+      <Filter>httrack-3.49.5\html\img</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\img\snap3_a.gif">
+      <Filter>httrack-3.49.5\html\img</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\img\snap4_a.gif">
+      <Filter>httrack-3.49.5\html\img</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\img\snap5_a.gif">
+      <Filter>httrack-3.49.5\html\img</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\img\snap9.gif">
+      <Filter>httrack-3.49.5\html\img</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\img\snap9_a.gif">
+      <Filter>httrack-3.49.5\html\img</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\img\snap9_b.gif">
+      <Filter>httrack-3.49.5\html\img</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\img\snap9_c.gif">
+      <Filter>httrack-3.49.5\html\img</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\img\snap9_d.gif">
+      <Filter>httrack-3.49.5\html\img</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\img\snap9_d2.gif">
+      <Filter>httrack-3.49.5\html\img</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\img\snap9_d3.gif">
+      <Filter>httrack-3.49.5\html\img</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\img\snap9_d4.gif">
+      <Filter>httrack-3.49.5\html\img</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\img\snap9_d5.gif">
+      <Filter>httrack-3.49.5\html\img</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\img\snap9_d6.gif">
+      <Filter>httrack-3.49.5\html\img</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\img\snap9_d7.gif">
+      <Filter>httrack-3.49.5\html\img</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\img\snap9_d8.gif">
+      <Filter>httrack-3.49.5\html\img</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\img\snap9_e.gif">
+      <Filter>httrack-3.49.5\html\img</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\img\snap9_f.gif">
+      <Filter>httrack-3.49.5\html\img</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\img\snap9_g.gif">
+      <Filter>httrack-3.49.5\html\img</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\img\snap9_g2.gif">
+      <Filter>httrack-3.49.5\html\img</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\img\snap9_g3.gif">
+      <Filter>httrack-3.49.5\html\img</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\img\snap9_h.gif">
+      <Filter>httrack-3.49.5\html\img</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\img\snap9_i.gif">
+      <Filter>httrack-3.49.5\html\img</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\img\snap9_j.gif">
+      <Filter>httrack-3.49.5\html\img</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\img\snap9_k.gif">
+      <Filter>httrack-3.49.5\html\img</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\server\div\16x16\httrack.png">
+      <Filter>httrack-3.49.5\html\server\div\16x16</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\server\div\32x32\httrack.png">
+      <Filter>httrack-3.49.5\html\server\div\32x32</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\server\div\48x48\httrack.png">
+      <Filter>httrack-3.49.5\html\server\div\48x48</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\server\div\httrack16x16.xpm">
+      <Filter>httrack-3.49.5\html\server\div</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\server\div\httrack32x32.xpm">
+      <Filter>httrack-3.49.5\html\server\div</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\server\div\httrack48x48.xpm">
+      <Filter>httrack-3.49.5\html\server\div</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\server\div\WebHTTrack.desktop">
+      <Filter>httrack-3.49.5\html\server\div</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\server\div\WebHTTrack-Websites.desktop">
+      <Filter>httrack-3.49.5\html\server\div</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\server\images\bg_rings.gif">
+      <Filter>httrack-3.49.5\html\server\images</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\server\images\fade.gif">
+      <Filter>httrack-3.49.5\html\server\images</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\server\images\header_title_4.gif">
+      <Filter>httrack-3.49.5\html\server\images</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\server\about.html">
+      <Filter>httrack-3.49.5\html\server</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\server\addurl.html">
+      <Filter>httrack-3.49.5\html\server</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\server\error.html">
+      <Filter>httrack-3.49.5\html\server</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\server\exit.html">
+      <Filter>httrack-3.49.5\html\server</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\server\file.html">
+      <Filter>httrack-3.49.5\html\server</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\server\finished.html">
+      <Filter>httrack-3.49.5\html\server</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\server\help.html">
+      <Filter>httrack-3.49.5\html\server</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\server\index.html">
+      <Filter>httrack-3.49.5\html\server</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\server\option1.html">
+      <Filter>httrack-3.49.5\html\server</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\server\option10.html">
+      <Filter>httrack-3.49.5\html\server</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\server\option11.html">
+      <Filter>httrack-3.49.5\html\server</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\server\option2.html">
+      <Filter>httrack-3.49.5\html\server</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\server\option2b.html">
+      <Filter>httrack-3.49.5\html\server</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\server\option3.html">
+      <Filter>httrack-3.49.5\html\server</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\server\option4.html">
+      <Filter>httrack-3.49.5\html\server</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\server\option5.html">
+      <Filter>httrack-3.49.5\html\server</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\server\option6.html">
+      <Filter>httrack-3.49.5\html\server</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\server\option7.html">
+      <Filter>httrack-3.49.5\html\server</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\server\option8.html">
+      <Filter>httrack-3.49.5\html\server</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\server\option9.html">
+      <Filter>httrack-3.49.5\html\server</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\server\ping.js">
+      <Filter>httrack-3.49.5\html\server</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\server\refresh.html">
+      <Filter>httrack-3.49.5\html\server</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\server\step2.html">
+      <Filter>httrack-3.49.5\html\server</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\server\step3.html">
+      <Filter>httrack-3.49.5\html\server</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\server\step4.html">
+      <Filter>httrack-3.49.5\html\server</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\server\style.css">
+      <Filter>httrack-3.49.5\html\server</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\abuse.html">
+      <Filter>httrack-3.49.5\html</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\addurl.html">
+      <Filter>httrack-3.49.5\html</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\cache.html">
+      <Filter>httrack-3.49.5\html</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\cmddoc.html">
+      <Filter>httrack-3.49.5\html</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\contact.html">
+      <Filter>httrack-3.49.5\html</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\dev.html">
+      <Filter>httrack-3.49.5\html</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\faq.html">
+      <Filter>httrack-3.49.5\html</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\fcguide.html">
+      <Filter>httrack-3.49.5\html</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\filters.html">
+      <Filter>httrack-3.49.5\html</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\httrack.css">
+      <Filter>httrack-3.49.5\html</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\httrack.man.html">
+      <Filter>httrack-3.49.5\html</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\index.html">
+      <Filter>httrack-3.49.5\html</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\library.html">
+      <Filter>httrack-3.49.5\html</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\Makefile.am">
+      <Filter>httrack-3.49.5\html</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\Makefile.in">
+      <Filter>httrack-3.49.5\html</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\options.html">
+      <Filter>httrack-3.49.5\html</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\overview.html">
+      <Filter>httrack-3.49.5\html</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\plug.html">
+      <Filter>httrack-3.49.5\html</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\plug_330.html">
+      <Filter>httrack-3.49.5\html</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\scripting.html">
+      <Filter>httrack-3.49.5\html</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\shelldoc.html">
+      <Filter>httrack-3.49.5\html</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\start.html">
+      <Filter>httrack-3.49.5\html</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\step.html">
+      <Filter>httrack-3.49.5\html</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\step1.html">
+      <Filter>httrack-3.49.5\html</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\step2.html">
+      <Filter>httrack-3.49.5\html</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\step3.html">
+      <Filter>httrack-3.49.5\html</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\step4.html">
+      <Filter>httrack-3.49.5\html</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\step5.html">
+      <Filter>httrack-3.49.5\html</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\step9.html">
+      <Filter>httrack-3.49.5\html</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\step9_opt1.html">
+      <Filter>httrack-3.49.5\html</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\step9_opt10.html">
+      <Filter>httrack-3.49.5\html</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\step9_opt11.html">
+      <Filter>httrack-3.49.5\html</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\step9_opt2.html">
+      <Filter>httrack-3.49.5\html</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\step9_opt3.html">
+      <Filter>httrack-3.49.5\html</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\step9_opt4.html">
+      <Filter>httrack-3.49.5\html</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\step9_opt5.html">
+      <Filter>httrack-3.49.5\html</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\step9_opt6.html">
+      <Filter>httrack-3.49.5\html</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\step9_opt7.html">
+      <Filter>httrack-3.49.5\html</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\step9_opt8.html">
+      <Filter>httrack-3.49.5\html</Filter>
+    </None>
+    <None Include="httrack-3.49.5\html\step9_opt9.html">
+      <Filter>httrack-3.49.5\html</Filter>
+    </None>
+    <None Include="httrack-3.49.5\lang\Bulgarian.txt">
+      <Filter>httrack-3.49.5\lang</Filter>
+    </None>
+    <None Include="httrack-3.49.5\lang\Castellano.txt">
+      <Filter>httrack-3.49.5\lang</Filter>
+    </None>
+    <None Include="httrack-3.49.5\lang\Cesky.txt">
+      <Filter>httrack-3.49.5\lang</Filter>
+    </None>
+    <None Include="httrack-3.49.5\lang\Chinese-BIG5.txt">
+      <Filter>httrack-3.49.5\lang</Filter>
+    </None>
+    <None Include="httrack-3.49.5\lang\Chinese-Simplified.txt">
+      <Filter>httrack-3.49.5\lang</Filter>
+    </None>
+    <None Include="httrack-3.49.5\lang\Croatian.txt">
+      <Filter>httrack-3.49.5\lang</Filter>
+    </None>
+    <None Include="httrack-3.49.5\lang\Dansk.txt">
+      <Filter>httrack-3.49.5\lang</Filter>
+    </None>
+    <None Include="httrack-3.49.5\lang\Deutsch.txt">
+      <Filter>httrack-3.49.5\lang</Filter>
+    </None>
+    <None Include="httrack-3.49.5\lang\Eesti.txt">
+      <Filter>httrack-3.49.5\lang</Filter>
+    </None>
+    <None Include="httrack-3.49.5\lang\English.txt">
+      <Filter>httrack-3.49.5\lang</Filter>
+    </None>
+    <None Include="httrack-3.49.5\lang\Finnish.txt">
+      <Filter>httrack-3.49.5\lang</Filter>
+    </None>
+    <None Include="httrack-3.49.5\lang\Francais.txt">
+      <Filter>httrack-3.49.5\lang</Filter>
+    </None>
+    <None Include="httrack-3.49.5\lang\Greek.txt">
+      <Filter>httrack-3.49.5\lang</Filter>
+    </None>
+    <None Include="httrack-3.49.5\lang\Italiano.txt">
+      <Filter>httrack-3.49.5\lang</Filter>
+    </None>
+    <None Include="httrack-3.49.5\lang\Japanese.txt">
+      <Filter>httrack-3.49.5\lang</Filter>
+    </None>
+    <None Include="httrack-3.49.5\lang\Macedonian.txt">
+      <Filter>httrack-3.49.5\lang</Filter>
+    </None>
+    <None Include="httrack-3.49.5\lang\Magyar.txt">
+      <Filter>httrack-3.49.5\lang</Filter>
+    </None>
+    <None Include="httrack-3.49.5\lang\Makefile.am">
+      <Filter>httrack-3.49.5\lang</Filter>
+    </None>
+    <None Include="httrack-3.49.5\lang\Makefile.in">
+      <Filter>httrack-3.49.5\lang</Filter>
+    </None>
+    <None Include="httrack-3.49.5\lang\Nederlands.txt">
+      <Filter>httrack-3.49.5\lang</Filter>
+    </None>
+    <None Include="httrack-3.49.5\lang\Norsk.txt">
+      <Filter>httrack-3.49.5\lang</Filter>
+    </None>
+    <None Include="httrack-3.49.5\lang\Polski.txt">
+      <Filter>httrack-3.49.5\lang</Filter>
+    </None>
+    <None Include="httrack-3.49.5\lang\Portugues.txt">
+      <Filter>httrack-3.49.5\lang</Filter>
+    </None>
+    <None Include="httrack-3.49.5\lang\Portugues-Brasil.txt">
+      <Filter>httrack-3.49.5\lang</Filter>
+    </None>
+    <None Include="httrack-3.49.5\lang\Romanian.txt">
+      <Filter>httrack-3.49.5\lang</Filter>
+    </None>
+    <None Include="httrack-3.49.5\lang\Russian.txt">
+      <Filter>httrack-3.49.5\lang</Filter>
+    </None>
+    <None Include="httrack-3.49.5\lang\Slovak.txt">
+      <Filter>httrack-3.49.5\lang</Filter>
+    </None>
+    <None Include="httrack-3.49.5\lang\Slovenian.txt">
+      <Filter>httrack-3.49.5\lang</Filter>
+    </None>
+    <None Include="httrack-3.49.5\lang\Svenska.txt">
+      <Filter>httrack-3.49.5\lang</Filter>
+    </None>
+    <None Include="httrack-3.49.5\lang\Turkish.txt">
+      <Filter>httrack-3.49.5\lang</Filter>
+    </None>
+    <None Include="httrack-3.49.5\lang\Ukrainian.txt">
+      <Filter>httrack-3.49.5\lang</Filter>
+    </None>
+    <None Include="httrack-3.49.5\lang\Uzbek.txt">
+      <Filter>httrack-3.49.5\lang</Filter>
+    </None>
+    <None Include="httrack-3.49.5\libtest\libtest.mak">
+      <Filter>httrack-3.49.5\libtest</Filter>
+    </None>
+    <None Include="httrack-3.49.5\libtest\libtest.vcproj">
+      <Filter>httrack-3.49.5\libtest</Filter>
+    </None>
+    <None Include="httrack-3.49.5\libtest\Makefile.am">
+      <Filter>httrack-3.49.5\libtest</Filter>
+    </None>
+    <None Include="httrack-3.49.5\libtest\Makefile.in">
+      <Filter>httrack-3.49.5\libtest</Filter>
+    </None>
+    <None Include="httrack-3.49.5\libtest\readme.txt">
+      <Filter>httrack-3.49.5\libtest</Filter>
+    </None>
+    <None Include="httrack-3.49.5\m4\check_zlib.m4">
+      <Filter>httrack-3.49.5\m4</Filter>
+    </None>
+    <None Include="httrack-3.49.5\m4\Makefile.am">
+      <Filter>httrack-3.49.5\m4</Filter>
+    </None>
+    <None Include="httrack-3.49.5\m4\Makefile.in">
+      <Filter>httrack-3.49.5\m4</Filter>
+    </None>
+    <None Include="httrack-3.49.5\m4\snprintf.m4">
+      <Filter>httrack-3.49.5\m4</Filter>
+    </None>
+    <None Include="httrack-3.49.5\m4\visibility.m4">
+      <Filter>httrack-3.49.5\m4</Filter>
+    </None>
+    <None Include="httrack-3.49.5\man\htsserver.1">
+      <Filter>httrack-3.49.5\man</Filter>
+    </None>
+    <None Include="httrack-3.49.5\man\httrack.1">
+      <Filter>httrack-3.49.5\man</Filter>
+    </None>
+    <None Include="httrack-3.49.5\man\Makefile.am">
+      <Filter>httrack-3.49.5\man</Filter>
+    </None>
+    <None Include="httrack-3.49.5\man\Makefile.in">
+      <Filter>httrack-3.49.5\man</Filter>
+    </None>
+    <None Include="httrack-3.49.5\man\proxytrack.1">
+      <Filter>httrack-3.49.5\man</Filter>
+    </None>
+    <None Include="httrack-3.49.5\man\webhttrack.1">
+      <Filter>httrack-3.49.5\man</Filter>
+    </None>
+    <None Include="httrack-3.49.5\src\minizip\ioapi.c.diff">
+      <Filter>httrack-3.49.5\src\minizip</Filter>
+    </None>
+    <None Include="httrack-3.49.5\src\minizip\ioapi.c.orig">
+      <Filter>httrack-3.49.5\src\minizip</Filter>
+    </None>
+    <None Include="httrack-3.49.5\src\minizip\ioapi.h.diff">
+      <Filter>httrack-3.49.5\src\minizip</Filter>
+    </None>
+    <None Include="httrack-3.49.5\src\minizip\ioapi.h.orig">
+      <Filter>httrack-3.49.5\src\minizip</Filter>
+    </None>
+    <None Include="httrack-3.49.5\src\minizip\MiniZip64_Changes.txt">
+      <Filter>httrack-3.49.5\src\minizip</Filter>
+    </None>
+    <None Include="httrack-3.49.5\src\minizip\MiniZip64_info.txt">
+      <Filter>httrack-3.49.5\src\minizip</Filter>
+    </None>
+    <None Include="httrack-3.49.5\src\minizip\mztools.c.diff">
+      <Filter>httrack-3.49.5\src\minizip</Filter>
+    </None>
+    <None Include="httrack-3.49.5\src\minizip\mztools.c.orig">
+      <Filter>httrack-3.49.5\src\minizip</Filter>
+    </None>
+    <None Include="httrack-3.49.5\src\minizip\zip.c.diff">
+      <Filter>httrack-3.49.5\src\minizip</Filter>
+    </None>
+    <None Include="httrack-3.49.5\src\minizip\zip.c.orig">
+      <Filter>httrack-3.49.5\src\minizip</Filter>
+    </None>
+    <None Include="httrack-3.49.5\src\minizip\zip.h.diff">
+      <Filter>httrack-3.49.5\src\minizip</Filter>
+    </None>
+    <None Include="httrack-3.49.5\src\minizip\zip.h.orig">
+      <Filter>httrack-3.49.5\src\minizip</Filter>
+    </None>
+    <None Include="httrack-3.49.5\src\proxy\AUTHORS">
+      <Filter>httrack-3.49.5\src\proxy</Filter>
+    </None>
+    <None Include="httrack-3.49.5\src\proxy\changelog.txt">
+      <Filter>httrack-3.49.5\src\proxy</Filter>
+    </None>
+    <None Include="httrack-3.49.5\src\proxy\COPYING">
+      <Filter>httrack-3.49.5\src\proxy</Filter>
+    </None>
+    <None Include="httrack-3.49.5\src\proxy\proxytrack.vcproj">
+      <Filter>httrack-3.49.5\src\proxy</Filter>
+    </None>
+    <None Include="httrack-3.49.5\src\htsbasiccharsets.sh">
+      <Filter>httrack-3.49.5\src</Filter>
+    </None>
+    <None Include="httrack-3.49.5\src\htsentities.sh">
+      <Filter>httrack-3.49.5\src</Filter>
+    </None>
+    <None Include="httrack-3.49.5\src\htsjava.vcproj">
+      <Filter>httrack-3.49.5\src</Filter>
+    </None>
+    <None Include="httrack-3.49.5\src\httrack.dsp">
+      <Filter>httrack-3.49.5\src</Filter>
+    </None>
+    <None Include="httrack-3.49.5\src\httrack.dsw">
+      <Filter>httrack-3.49.5\src</Filter>
+    </None>
+    <None Include="httrack-3.49.5\src\httrack.vcproj">
+      <Filter>httrack-3.49.5\src</Filter>
+    </None>
+    <None Include="httrack-3.49.5\src\libhttrack.dsp">
+      <Filter>httrack-3.49.5\src</Filter>
+    </None>
+    <None Include="httrack-3.49.5\src\libhttrack.dsw">
+      <Filter>httrack-3.49.5\src</Filter>
+    </None>
+    <None Include="httrack-3.49.5\src\libhttrack.vcproj">
+      <Filter>httrack-3.49.5\src</Filter>
+    </None>
+    <None Include="httrack-3.49.5\src\Makefile.am">
+      <Filter>httrack-3.49.5\src</Filter>
+    </None>
+    <None Include="httrack-3.49.5\src\Makefile.in">
+      <Filter>httrack-3.49.5\src</Filter>
+    </None>
+    <None Include="httrack-3.49.5\src\murmurhash3.h.orig">
+      <Filter>httrack-3.49.5\src</Filter>
+    </None>
+    <None Include="httrack-3.49.5\src\webhttrack">
+      <Filter>httrack-3.49.5\src</Filter>
+    </None>
+    <None Include="httrack-3.49.5\src\webhttrack.dsp">
+      <Filter>httrack-3.49.5\src</Filter>
+    </None>
+    <None Include="httrack-3.49.5\src\webhttrack.dsw">
+      <Filter>httrack-3.49.5\src</Filter>
+    </None>
+    <None Include="httrack-3.49.5\src\webhttrack.vcproj">
+      <Filter>httrack-3.49.5\src</Filter>
+    </None>
+    <None Include="httrack-3.49.5\templates\index-body.html">
+      <Filter>httrack-3.49.5\templates</Filter>
+    </None>
+    <None Include="httrack-3.49.5\templates\index-footer.html">
+      <Filter>httrack-3.49.5\templates</Filter>
+    </None>
+    <None Include="httrack-3.49.5\templates\index-header.html">
+      <Filter>httrack-3.49.5\templates</Filter>
+    </None>
+    <None Include="httrack-3.49.5\templates\Makefile.am">
+      <Filter>httrack-3.49.5\templates</Filter>
+    </None>
+    <None Include="httrack-3.49.5\templates\Makefile.in">
+      <Filter>httrack-3.49.5\templates</Filter>
+    </None>
+    <None Include="httrack-3.49.5\templates\topindex-body.html">
+      <Filter>httrack-3.49.5\templates</Filter>
+    </None>
+    <None Include="httrack-3.49.5\templates\topindex-bodycat.html">
+      <Filter>httrack-3.49.5\templates</Filter>
+    </None>
+    <None Include="httrack-3.49.5\templates\topindex-footer.html">
+      <Filter>httrack-3.49.5\templates</Filter>
+    </None>
+    <None Include="httrack-3.49.5\templates\topindex-header.html">
+      <Filter>httrack-3.49.5\templates</Filter>
+    </None>
+    <None Include="httrack-3.49.5\tests\00_runnable.test">
+      <Filter>httrack-3.49.5\tests</Filter>
+    </None>
+    <None Include="httrack-3.49.5\tests\01_engine-charset.test">
+      <Filter>httrack-3.49.5\tests</Filter>
+    </None>
+    <None Include="httrack-3.49.5\tests\01_engine-entities.test">
+      <Filter>httrack-3.49.5\tests</Filter>
+    </None>
+    <None Include="httrack-3.49.5\tests\01_engine-hashtable.test">
+      <Filter>httrack-3.49.5\tests</Filter>
+    </None>
+    <None Include="httrack-3.49.5\tests\01_engine-idna.test">
+      <Filter>httrack-3.49.5\tests</Filter>
+    </None>
+    <None Include="httrack-3.49.5\tests\01_engine-simplify.test">
+      <Filter>httrack-3.49.5\tests</Filter>
+    </None>
+    <None Include="httrack-3.49.5\tests\10_crawl-simple.test">
+      <Filter>httrack-3.49.5\tests</Filter>
+    </None>
+    <None Include="httrack-3.49.5\tests\11_crawl-cookies.test">
+      <Filter>httrack-3.49.5\tests</Filter>
+    </None>
+    <None Include="httrack-3.49.5\tests\11_crawl-idna.test">
+      <Filter>httrack-3.49.5\tests</Filter>
+    </None>
+    <None Include="httrack-3.49.5\tests\11_crawl-international.test">
+      <Filter>httrack-3.49.5\tests</Filter>
+    </None>
+    <None Include="httrack-3.49.5\tests\11_crawl-longurl.test">
+      <Filter>httrack-3.49.5\tests</Filter>
+    </None>
+    <None Include="httrack-3.49.5\tests\11_crawl-parsing.test">
+      <Filter>httrack-3.49.5\tests</Filter>
+    </None>
+    <None Include="httrack-3.49.5\tests\12_crawl_https.test">
+      <Filter>httrack-3.49.5\tests</Filter>
+    </None>
+    <None Include="httrack-3.49.5\tests\check-network.sh">
+      <Filter>httrack-3.49.5\tests</Filter>
+    </None>
+    <None Include="httrack-3.49.5\tests\crawl-test.sh">
+      <Filter>httrack-3.49.5\tests</Filter>
+    </None>
+    <None Include="httrack-3.49.5\tests\Makefile.am">
+      <Filter>httrack-3.49.5\tests</Filter>
+    </None>
+    <None Include="httrack-3.49.5\tests\Makefile.in">
+      <Filter>httrack-3.49.5\tests</Filter>
+    </None>
+    <None Include="httrack-3.49.5\tests\run-all-tests.sh">
+      <Filter>httrack-3.49.5\tests</Filter>
+    </None>
+    <None Include="httrack-3.49.5\.gitmodules">
+      <Filter>httrack-3.49.5</Filter>
+    </None>
+    <None Include="httrack-3.49.5\AUTHORS">
+      <Filter>httrack-3.49.5</Filter>
+    </None>
+    <None Include="httrack-3.49.5\ChangeLog">
+      <Filter>httrack-3.49.5</Filter>
+    </None>
+    <None Include="httrack-3.49.5\compile">
+      <Filter>httrack-3.49.5</Filter>
+    </None>
+    <None Include="httrack-3.49.5\config.guess">
+      <Filter>httrack-3.49.5</Filter>
+    </None>
+    <None Include="httrack-3.49.5\config.h.in">
+      <Filter>httrack-3.49.5</Filter>
+    </None>
+    <None Include="httrack-3.49.5\config.sub">
+      <Filter>httrack-3.49.5</Filter>
+    </None>
+    <None Include="httrack-3.49.5\configure">
+      <Filter>httrack-3.49.5</Filter>
+    </None>
+    <None Include="httrack-3.49.5\configure.ac">
+      <Filter>httrack-3.49.5</Filter>
+    </None>
+    <None Include="httrack-3.49.5\COPYING">
+      <Filter>httrack-3.49.5</Filter>
+    </None>
+    <None Include="httrack-3.49.5\depcomp">
+      <Filter>httrack-3.49.5</Filter>
+    </None>
+    <None Include="httrack-3.49.5\gpl-fr.txt">
+      <Filter>httrack-3.49.5</Filter>
+    </None>
+    <None Include="httrack-3.49.5\greetings.txt">
+      <Filter>httrack-3.49.5</Filter>
+    </None>
+    <None Include="httrack-3.49.5\history.txt">
+      <Filter>httrack-3.49.5</Filter>
+    </None>
+    <None Include="httrack-3.49.5\httrack-doc.html">
+      <Filter>httrack-3.49.5</Filter>
+    </None>
+    <None Include="httrack-3.49.5\INSTALL">
+      <Filter>httrack-3.49.5</Filter>
+    </None>
+    <None Include="httrack-3.49.5\INSTALL.Linux">
+      <Filter>httrack-3.49.5</Filter>
+    </None>
+    <None Include="httrack-3.49.5\install-sh">
+      <Filter>httrack-3.49.5</Filter>
+    </None>
+    <None Include="httrack-3.49.5\lang.def">
+      <Filter>httrack-3.49.5</Filter>
+    </None>
+    <None Include="httrack-3.49.5\lang.indexes">
+      <Filter>httrack-3.49.5</Filter>
+    </None>
+    <None Include="httrack-3.49.5\license.txt">
+      <Filter>httrack-3.49.5</Filter>
+    </None>
+    <None Include="httrack-3.49.5\ltmain.sh">
+      <Filter>httrack-3.49.5</Filter>
+    </None>
+    <None Include="httrack-3.49.5\Makefile.am">
+      <Filter>httrack-3.49.5</Filter>
+    </None>
+    <None Include="httrack-3.49.5\Makefile.in">
+      <Filter>httrack-3.49.5</Filter>
+    </None>
+    <None Include="httrack-3.49.5\NEWS">
+      <Filter>httrack-3.49.5</Filter>
+    </None>
+    <None Include="httrack-3.49.5\README">
+      <Filter>httrack-3.49.5</Filter>
+    </None>
+    <None Include="httrack-3.49.5\README.md">
+      <Filter>httrack-3.49.5</Filter>
+    </None>
+
+  </ItemGroup>
+</Project>

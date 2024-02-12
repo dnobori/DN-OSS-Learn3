@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{F1AEEA01-69D3-454D-9E2B-C32C05019ED2}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>httrack-3.49.5</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions);__KERNEL__</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(ProjectDir)/httrack-3.49.5/libtest;$(ProjectDir)/httrack-3.49.5/src;$(ProjectDir)/httrack-3.49.5/src/minizip;$(ProjectDir)/httrack-3.49.5/src/proxy;</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="httrack-3.49.5\libtest\example-main.h" />
+    <ClInclude Include="httrack-3.49.5\src\minizip\crypt.h" />
+    <ClInclude Include="httrack-3.49.5\src\minizip\ioapi.h" />
+    <ClInclude Include="httrack-3.49.5\src\minizip\iowin32.h" />
+    <ClInclude Include="httrack-3.49.5\src\minizip\mztools.h" />
+    <ClInclude Include="httrack-3.49.5\src\minizip\unzip.h" />
+    <ClInclude Include="httrack-3.49.5\src\minizip\zip.h" />
+    <ClInclude Include="httrack-3.49.5\src\proxy\proxystrings.h" />
+    <ClInclude Include="httrack-3.49.5\src\proxy\proxytrack.h" />
+    <ClInclude Include="httrack-3.49.5\src\proxy\store.h" />
+    <ClInclude Include="httrack-3.49.5\src\htsalias.h" />
+    <ClInclude Include="httrack-3.49.5\src\htsarrays.h" />
+    <ClInclude Include="httrack-3.49.5\src\htsback.h" />
+    <ClInclude Include="httrack-3.49.5\src\htsbase.h" />
+    <ClInclude Include="httrack-3.49.5\src\htsbasenet.h" />
+    <ClInclude Include="httrack-3.49.5\src\htsbauth.h" />
+    <ClInclude Include="httrack-3.49.5\src\htscache.h" />
+    <ClInclude Include="httrack-3.49.5\src\htscatchurl.h" />
+    <ClInclude Include="httrack-3.49.5\src\htscharset.h" />
+    <ClInclude Include="httrack-3.49.5\src\htscodepages.h" />
+    <ClInclude Include="httrack-3.49.5\src\htsconfig.h" />
+    <ClInclude Include="httrack-3.49.5\src\htscore.h" />
+    <ClInclude Include="httrack-3.49.5\src\htscoremain.h" />
+    <ClInclude Include="httrack-3.49.5\src\htsdefines.h" />
+    <ClInclude Include="httrack-3.49.5\src\htsencoding.h" />
+    <ClInclude Include="httrack-3.49.5\src\htsentities.h" />
+    <ClInclude Include="httrack-3.49.5\src\htsfilters.h" />
+    <ClInclude Include="httrack-3.49.5\src\htsftp.h" />
+    <ClInclude Include="httrack-3.49.5\src\htsglobal.h" />
+    <ClInclude Include="httrack-3.49.5\src\htshash.h" />
+    <ClInclude Include="httrack-3.49.5\src\htshelp.h" />
+    <ClInclude Include="httrack-3.49.5\src\htsindex.h" />
+    <ClInclude Include="httrack-3.49.5\src\hts-indextmpl.h" />
+    <ClInclude Include="httrack-3.49.5\src\htsjava.h" />
+    <ClInclude Include="httrack-3.49.5\src\htslib.h" />
+    <ClInclude Include="httrack-3.49.5\src\htsmd5.h" />
+    <ClInclude Include="httrack-3.49.5\src\htsmodules.h" />
+    <ClInclude Include="httrack-3.49.5\src\htsname.h" />
+    <ClInclude Include="httrack-3.49.5\src\htsnet.h" />
+    <ClInclude Include="httrack-3.49.5\src\htsopt.h" />
+    <ClInclude Include="httrack-3.49.5\src\htsparse.h" />
+    <ClInclude Include="httrack-3.49.5\src\htsrobots.h" />
+    <ClInclude Include="httrack-3.49.5\src\htssafe.h" />
+    <ClInclude Include="httrack-3.49.5\src\htsserver.h" />
+    <ClInclude Include="httrack-3.49.5\src\htsstrings.h" />
+    <ClInclude Include="httrack-3.49.5\src\htsthread.h" />
+    <ClInclude Include="httrack-3.49.5\src\htstools.h" />
+    <ClInclude Include="httrack-3.49.5\src\htsweb.h" />
+    <ClInclude Include="httrack-3.49.5\src\htswizard.h" />
+    <ClInclude Include="httrack-3.49.5\src\htswrap.h" />
+    <ClInclude Include="httrack-3.49.5\src\htszlib.h" />
+    <ClInclude Include="httrack-3.49.5\src\httrack.h" />
+    <ClInclude Include="httrack-3.49.5\src\httrack-library.h" />
+    <ClInclude Include="httrack-3.49.5\src\md5.h" />
+    <ClInclude Include="httrack-3.49.5\src\punycode.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="httrack-3.49.5\libtest\callbacks-example-baselinks.c" />
+    <ClCompile Include="httrack-3.49.5\libtest\callbacks-example-changecontent.c" />
+    <ClCompile Include="httrack-3.49.5\libtest\callbacks-example-contentfilter.c" />
+    <ClCompile Include="httrack-3.49.5\libtest\callbacks-example-displayheader.c" />
+    <ClCompile Include="httrack-3.49.5\libtest\callbacks-example-filename.c" />
+    <ClCompile Include="httrack-3.49.5\libtest\callbacks-example-filename2.c" />
+    <ClCompile Include="httrack-3.49.5\libtest\callbacks-example-filenameiisbug.c" />
+    <ClCompile Include="httrack-3.49.5\libtest\callbacks-example-listlinks.c" />
+    <ClCompile Include="httrack-3.49.5\libtest\callbacks-example-log.c" />
+    <ClCompile Include="httrack-3.49.5\libtest\callbacks-example-simple.c" />
+    <ClCompile Include="httrack-3.49.5\libtest\example-main.c" />
+    <ClCompile Include="httrack-3.49.5\src\minizip\ioapi.c" />
+    <ClCompile Include="httrack-3.49.5\src\minizip\iowin32.c" />
+    <ClCompile Include="httrack-3.49.5\src\minizip\mztools.c" />
+    <ClCompile Include="httrack-3.49.5\src\minizip\unzip.c" />
+    <ClCompile Include="httrack-3.49.5\src\minizip\zip.c" />
+    <ClCompile Include="httrack-3.49.5\src\proxy\main.c" />
+    <ClCompile Include="httrack-3.49.5\src\proxy\proxytrack.c" />
+    <ClCompile Include="httrack-3.49.5\src\proxy\store.c" />
+    <ClCompile Include="httrack-3.49.5\src\htsalias.c" />
+    <ClCompile Include="httrack-3.49.5\src\htsback.c" />
+    <ClCompile Include="httrack-3.49.5\src\htsbauth.c" />
+    <ClCompile Include="httrack-3.49.5\src\htscache.c" />
+    <ClCompile Include="httrack-3.49.5\src\htscatchurl.c" />
+    <ClCompile Include="httrack-3.49.5\src\htscharset.c" />
+    <ClCompile Include="httrack-3.49.5\src\htsconcat.c" />
+    <ClCompile Include="httrack-3.49.5\src\htscore.c" />
+    <ClCompile Include="httrack-3.49.5\src\htscoremain.c" />
+    <ClCompile Include="httrack-3.49.5\src\htsencoding.c" />
+    <ClCompile Include="httrack-3.49.5\src\htsfilters.c" />
+    <ClCompile Include="httrack-3.49.5\src\htsftp.c" />
+    <ClCompile Include="httrack-3.49.5\src\htshash.c" />
+    <ClCompile Include="httrack-3.49.5\src\htshelp.c" />
+    <ClCompile Include="httrack-3.49.5\src\htsindex.c" />
+    <ClCompile Include="httrack-3.49.5\src\htsjava.c" />
+    <ClCompile Include="httrack-3.49.5\src\htslib.c" />
+    <ClCompile Include="httrack-3.49.5\src\htsmd5.c" />
+    <ClCompile Include="httrack-3.49.5\src\htsmodules.c" />
+    <ClCompile Include="httrack-3.49.5\src\htsname.c" />
+    <ClCompile Include="httrack-3.49.5\src\htsparse.c" />
+    <ClCompile Include="httrack-3.49.5\src\htsrobots.c" />
+    <ClCompile Include="httrack-3.49.5\src\htsserver.c" />
+    <ClCompile Include="httrack-3.49.5\src\htsthread.c" />
+    <ClCompile Include="httrack-3.49.5\src\htstools.c" />
+    <ClCompile Include="httrack-3.49.5\src\htsweb.c" />
+    <ClCompile Include="httrack-3.49.5\src\htswizard.c" />
+    <ClCompile Include="httrack-3.49.5\src\htswrap.c" />
+    <ClCompile Include="httrack-3.49.5\src\htszlib.c" />
+    <ClCompile Include="httrack-3.49.5\src\httrack.c" />
+    <ClCompile Include="httrack-3.49.5\src\md5.c" />
+    <ClCompile Include="httrack-3.49.5\src\punycode.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="httrack-3.49.5\debian\source\format" />
+    <None Include="httrack-3.49.5\debian\source\lintian-overrides" />
+    <None Include="httrack-3.49.5\debian\source\options" />
+    <None Include="httrack-3.49.5\debian\changelog" />
+    <None Include="httrack-3.49.5\debian\compat" />
+    <None Include="httrack-3.49.5\debian\control" />
+    <None Include="httrack-3.49.5\debian\copyright" />
+    <None Include="httrack-3.49.5\debian\httrack-doc.doc-base" />
+    <None Include="httrack-3.49.5\debian\httrack-doc.files" />
+    <None Include="httrack-3.49.5\debian\httrack-doc.lintian-overrides" />
+    <None Include="httrack-3.49.5\debian\libhttrack2.files" />
+    <None Include="httrack-3.49.5\debian\libhttrack2.lintian-overrides" />
+    <None Include="httrack-3.49.5\debian\libhttrack-dev.files" />
+    <None Include="httrack-3.49.5\debian\libhttrack-dev.lintian-overrides" />
+    <None Include="httrack-3.49.5\debian\libhttrack-swf1.files" />
+    <None Include="httrack-3.49.5\debian\proxytrack.files" />
+    <None Include="httrack-3.49.5\debian\rules" />
+    <None Include="httrack-3.49.5\debian\watch" />
+    <None Include="httrack-3.49.5\debian\webhttrack.files" />
+    <None Include="httrack-3.49.5\debian\webhttrack.lintian-overrides" />
+    <None Include="httrack-3.49.5\debian\webhttrack-common.files" />
+    <None Include="httrack-3.49.5\debian\webhttrack-common.lintian-overrides" />
+    <None Include="httrack-3.49.5\html\div\search.sh" />
+    <None Include="httrack-3.49.5\html\images\bg_rings.gif" />
+    <None Include="httrack-3.49.5\html\images\header_title_4.gif" />
+    <None Include="httrack-3.49.5\html\images\screenshot_01.jpg" />
+    <None Include="httrack-3.49.5\html\images\screenshot_01b.jpg" />
+    <None Include="httrack-3.49.5\html\img\addurl1.gif" />
+    <None Include="httrack-3.49.5\html\img\addurl2.gif" />
+    <None Include="httrack-3.49.5\html\img\addurl3.gif" />
+    <None Include="httrack-3.49.5\html\img\addurl4.gif" />
+    <None Include="httrack-3.49.5\html\img\addurl5.gif" />
+    <None Include="httrack-3.49.5\html\img\backblue.gif" />
+    <None Include="httrack-3.49.5\html\img\fade.gif" />
+    <None Include="httrack-3.49.5\html\img\httrack.gif" />
+    <None Include="httrack-3.49.5\html\img\snap1_a.gif" />
+    <None Include="httrack-3.49.5\html\img\snap1_b.gif" />
+    <None Include="httrack-3.49.5\html\img\snap1_c.gif" />
+    <None Include="httrack-3.49.5\html\img\snap2_a.gif" />
+    <None Include="httrack-3.49.5\html\img\snap2_b.gif" />
+    <None Include="httrack-3.49.5\html\img\snap3_a.gif" />
+    <None Include="httrack-3.49.5\html\img\snap4_a.gif" />
+    <None Include="httrack-3.49.5\html\img\snap5_a.gif" />
+    <None Include="httrack-3.49.5\html\img\snap9.gif" />
+    <None Include="httrack-3.49.5\html\img\snap9_a.gif" />
+    <None Include="httrack-3.49.5\html\img\snap9_b.gif" />
+    <None Include="httrack-3.49.5\html\img\snap9_c.gif" />
+    <None Include="httrack-3.49.5\html\img\snap9_d.gif" />
+    <None Include="httrack-3.49.5\html\img\snap9_d2.gif" />
+    <None Include="httrack-3.49.5\html\img\snap9_d3.gif" />
+    <None Include="httrack-3.49.5\html\img\snap9_d4.gif" />
+    <None Include="httrack-3.49.5\html\img\snap9_d5.gif" />
+    <None Include="httrack-3.49.5\html\img\snap9_d6.gif" />
+    <None Include="httrack-3.49.5\html\img\snap9_d7.gif" />
+    <None Include="httrack-3.49.5\html\img\snap9_d8.gif" />
+    <None Include="httrack-3.49.5\html\img\snap9_e.gif" />
+    <None Include="httrack-3.49.5\html\img\snap9_f.gif" />
+    <None Include="httrack-3.49.5\html\img\snap9_g.gif" />
+    <None Include="httrack-3.49.5\html\img\snap9_g2.gif" />
+    <None Include="httrack-3.49.5\html\img\snap9_g3.gif" />
+    <None Include="httrack-3.49.5\html\img\snap9_h.gif" />
+    <None Include="httrack-3.49.5\html\img\snap9_i.gif" />
+    <None Include="httrack-3.49.5\html\img\snap9_j.gif" />
+    <None Include="httrack-3.49.5\html\img\snap9_k.gif" />
+    <None Include="httrack-3.49.5\html\server\div\16x16\httrack.png" />
+    <None Include="httrack-3.49.5\html\server\div\32x32\httrack.png" />
+    <None Include="httrack-3.49.5\html\server\div\48x48\httrack.png" />
+    <None Include="httrack-3.49.5\html\server\div\httrack16x16.xpm" />
+    <None Include="httrack-3.49.5\html\server\div\httrack32x32.xpm" />
+    <None Include="httrack-3.49.5\html\server\div\httrack48x48.xpm" />
+    <None Include="httrack-3.49.5\html\server\div\WebHTTrack.desktop" />
+    <None Include="httrack-3.49.5\html\server\div\WebHTTrack-Websites.desktop" />
+    <None Include="httrack-3.49.5\html\server\images\bg_rings.gif" />
+    <None Include="httrack-3.49.5\html\server\images\fade.gif" />
+    <None Include="httrack-3.49.5\html\server\images\header_title_4.gif" />
+    <None Include="httrack-3.49.5\html\server\about.html" />
+    <None Include="httrack-3.49.5\html\server\addurl.html" />
+    <None Include="httrack-3.49.5\html\server\error.html" />
+    <None Include="httrack-3.49.5\html\server\exit.html" />
+    <None Include="httrack-3.49.5\html\server\file.html" />
+    <None Include="httrack-3.49.5\html\server\finished.html" />
+    <None Include="httrack-3.49.5\html\server\help.html" />
+    <None Include="httrack-3.49.5\html\server\index.html" />
+    <None Include="httrack-3.49.5\html\server\option1.html" />
+    <None Include="httrack-3.49.5\html\server\option10.html" />
+    <None Include="httrack-3.49.5\html\server\option11.html" />
+    <None Include="httrack-3.49.5\html\server\option2.html" />
+    <None Include="httrack-3.49.5\html\server\option2b.html" />
+    <None Include="httrack-3.49.5\html\server\option3.html" />
+    <None Include="httrack-3.49.5\html\server\option4.html" />
+    <None Include="httrack-3.49.5\html\server\option5.html" />
+    <None Include="httrack-3.49.5\html\server\option6.html" />
+    <None Include="httrack-3.49.5\html\server\option7.html" />
+    <None Include="httrack-3.49.5\html\server\option8.html" />
+    <None Include="httrack-3.49.5\html\server\option9.html" />
+    <None Include="httrack-3.49.5\html\server\ping.js" />
+    <None Include="httrack-3.49.5\html\server\refresh.html" />
+    <None Include="httrack-3.49.5\html\server\step2.html" />
+    <None Include="httrack-3.49.5\html\server\step3.html" />
+    <None Include="httrack-3.49.5\html\server\step4.html" />
+    <None Include="httrack-3.49.5\html\server\style.css" />
+    <None Include="httrack-3.49.5\html\abuse.html" />
+    <None Include="httrack-3.49.5\html\addurl.html" />
+    <None Include="httrack-3.49.5\html\cache.html" />
+    <None Include="httrack-3.49.5\html\cmddoc.html" />
+    <None Include="httrack-3.49.5\html\contact.html" />
+    <None Include="httrack-3.49.5\html\dev.html" />
+    <None Include="httrack-3.49.5\html\faq.html" />
+    <None Include="httrack-3.49.5\html\fcguide.html" />
+    <None Include="httrack-3.49.5\html\filters.html" />
+    <None Include="httrack-3.49.5\html\httrack.css" />
+    <None Include="httrack-3.49.5\html\httrack.man.html" />
+    <None Include="httrack-3.49.5\html\index.html" />
+    <None Include="httrack-3.49.5\html\library.html" />
+    <None Include="httrack-3.49.5\html\Makefile.am" />
+    <None Include="httrack-3.49.5\html\Makefile.in" />
+    <None Include="httrack-3.49.5\html\options.html" />
+    <None Include="httrack-3.49.5\html\overview.html" />
+    <None Include="httrack-3.49.5\html\plug.html" />
+    <None Include="httrack-3.49.5\html\plug_330.html" />
+    <None Include="httrack-3.49.5\html\scripting.html" />
+    <None Include="httrack-3.49.5\html\shelldoc.html" />
+    <None Include="httrack-3.49.5\html\start.html" />
+    <None Include="httrack-3.49.5\html\step.html" />
+    <None Include="httrack-3.49.5\html\step1.html" />
+    <None Include="httrack-3.49.5\html\step2.html" />
+    <None Include="httrack-3.49.5\html\step3.html" />
+    <None Include="httrack-3.49.5\html\step4.html" />
+    <None Include="httrack-3.49.5\html\step5.html" />
+    <None Include="httrack-3.49.5\html\step9.html" />
+    <None Include="httrack-3.49.5\html\step9_opt1.html" />
+    <None Include="httrack-3.49.5\html\step9_opt10.html" />
+    <None Include="httrack-3.49.5\html\step9_opt11.html" />
+    <None Include="httrack-3.49.5\html\step9_opt2.html" />
+    <None Include="httrack-3.49.5\html\step9_opt3.html" />
+    <None Include="httrack-3.49.5\html\step9_opt4.html" />
+    <None Include="httrack-3.49.5\html\step9_opt5.html" />
+    <None Include="httrack-3.49.5\html\step9_opt6.html" />
+    <None Include="httrack-3.49.5\html\step9_opt7.html" />
+    <None Include="httrack-3.49.5\html\step9_opt8.html" />
+    <None Include="httrack-3.49.5\html\step9_opt9.html" />
+    <None Include="httrack-3.49.5\lang\Bulgarian.txt" />
+    <None Include="httrack-3.49.5\lang\Castellano.txt" />
+    <None Include="httrack-3.49.5\lang\Cesky.txt" />
+    <None Include="httrack-3.49.5\lang\Chinese-BIG5.txt" />
+    <None Include="httrack-3.49.5\lang\Chinese-Simplified.txt" />
+    <None Include="httrack-3.49.5\lang\Croatian.txt" />
+    <None Include="httrack-3.49.5\lang\Dansk.txt" />
+    <None Include="httrack-3.49.5\lang\Deutsch.txt" />
+    <None Include="httrack-3.49.5\lang\Eesti.txt" />
+    <None Include="httrack-3.49.5\lang\English.txt" />
+    <None Include="httrack-3.49.5\lang\Finnish.txt" />
+    <None Include="httrack-3.49.5\lang\Francais.txt" />
+    <None Include="httrack-3.49.5\lang\Greek.txt" />
+    <None Include="httrack-3.49.5\lang\Italiano.txt" />
+    <None Include="httrack-3.49.5\lang\Japanese.txt" />
+    <None Include="httrack-3.49.5\lang\Macedonian.txt" />
+    <None Include="httrack-3.49.5\lang\Magyar.txt" />
+    <None Include="httrack-3.49.5\lang\Makefile.am" />
+    <None Include="httrack-3.49.5\lang\Makefile.in" />
+    <None Include="httrack-3.49.5\lang\Nederlands.txt" />
+    <None Include="httrack-3.49.5\lang\Norsk.txt" />
+    <None Include="httrack-3.49.5\lang\Polski.txt" />
+    <None Include="httrack-3.49.5\lang\Portugues.txt" />
+    <None Include="httrack-3.49.5\lang\Portugues-Brasil.txt" />
+    <None Include="httrack-3.49.5\lang\Romanian.txt" />
+    <None Include="httrack-3.49.5\lang\Russian.txt" />
+    <None Include="httrack-3.49.5\lang\Slovak.txt" />
+    <None Include="httrack-3.49.5\lang\Slovenian.txt" />
+    <None Include="httrack-3.49.5\lang\Svenska.txt" />
+    <None Include="httrack-3.49.5\lang\Turkish.txt" />
+    <None Include="httrack-3.49.5\lang\Ukrainian.txt" />
+    <None Include="httrack-3.49.5\lang\Uzbek.txt" />
+    <None Include="httrack-3.49.5\libtest\libtest.mak" />
+    <None Include="httrack-3.49.5\libtest\libtest.vcproj" />
+    <None Include="httrack-3.49.5\libtest\Makefile.am" />
+    <None Include="httrack-3.49.5\libtest\Makefile.in" />
+    <None Include="httrack-3.49.5\libtest\readme.txt" />
+    <None Include="httrack-3.49.5\m4\check_zlib.m4" />
+    <None Include="httrack-3.49.5\m4\Makefile.am" />
+    <None Include="httrack-3.49.5\m4\Makefile.in" />
+    <None Include="httrack-3.49.5\m4\snprintf.m4" />
+    <None Include="httrack-3.49.5\m4\visibility.m4" />
+    <None Include="httrack-3.49.5\man\htsserver.1" />
+    <None Include="httrack-3.49.5\man\httrack.1" />
+    <None Include="httrack-3.49.5\man\Makefile.am" />
+    <None Include="httrack-3.49.5\man\Makefile.in" />
+    <None Include="httrack-3.49.5\man\proxytrack.1" />
+    <None Include="httrack-3.49.5\man\webhttrack.1" />
+    <None Include="httrack-3.49.5\src\minizip\ioapi.c.diff" />
+    <None Include="httrack-3.49.5\src\minizip\ioapi.c.orig" />
+    <None Include="httrack-3.49.5\src\minizip\ioapi.h.diff" />
+    <None Include="httrack-3.49.5\src\minizip\ioapi.h.orig" />
+    <None Include="httrack-3.49.5\src\minizip\MiniZip64_Changes.txt" />
+    <None Include="httrack-3.49.5\src\minizip\MiniZip64_info.txt" />
+    <None Include="httrack-3.49.5\src\minizip\mztools.c.diff" />
+    <None Include="httrack-3.49.5\src\minizip\mztools.c.orig" />
+    <None Include="httrack-3.49.5\src\minizip\zip.c.diff" />
+    <None Include="httrack-3.49.5\src\minizip\zip.c.orig" />
+    <None Include="httrack-3.49.5\src\minizip\zip.h.diff" />
+    <None Include="httrack-3.49.5\src\minizip\zip.h.orig" />
+    <None Include="httrack-3.49.5\src\proxy\AUTHORS" />
+    <None Include="httrack-3.49.5\src\proxy\changelog.txt" />
+    <None Include="httrack-3.49.5\src\proxy\COPYING" />
+    <None Include="httrack-3.49.5\src\proxy\proxytrack.vcproj" />
+    <None Include="httrack-3.49.5\src\htsbasiccharsets.sh" />
+    <None Include="httrack-3.49.5\src\htsentities.sh" />
+    <None Include="httrack-3.49.5\src\htsjava.vcproj" />
+    <None Include="httrack-3.49.5\src\httrack.dsp" />
+    <None Include="httrack-3.49.5\src\httrack.dsw" />
+    <None Include="httrack-3.49.5\src\httrack.vcproj" />
+    <None Include="httrack-3.49.5\src\libhttrack.dsp" />
+    <None Include="httrack-3.49.5\src\libhttrack.dsw" />
+    <None Include="httrack-3.49.5\src\libhttrack.vcproj" />
+    <None Include="httrack-3.49.5\src\Makefile.am" />
+    <None Include="httrack-3.49.5\src\Makefile.in" />
+    <None Include="httrack-3.49.5\src\murmurhash3.h.orig" />
+    <None Include="httrack-3.49.5\src\webhttrack" />
+    <None Include="httrack-3.49.5\src\webhttrack.dsp" />
+    <None Include="httrack-3.49.5\src\webhttrack.dsw" />
+    <None Include="httrack-3.49.5\src\webhttrack.vcproj" />
+    <None Include="httrack-3.49.5\templates\index-body.html" />
+    <None Include="httrack-3.49.5\templates\index-footer.html" />
+    <None Include="httrack-3.49.5\templates\index-header.html" />
+    <None Include="httrack-3.49.5\templates\Makefile.am" />
+    <None Include="httrack-3.49.5\templates\Makefile.in" />
+    <None Include="httrack-3.49.5\templates\topindex-body.html" />
+    <None Include="httrack-3.49.5\templates\topindex-bodycat.html" />
+    <None Include="httrack-3.49.5\templates\topindex-footer.html" />
+    <None Include="httrack-3.49.5\templates\topindex-header.html" />
+    <None Include="httrack-3.49.5\tests\00_runnable.test" />
+    <None Include="httrack-3.49.5\tests\01_engine-charset.test" />
+    <None Include="httrack-3.49.5\tests\01_engine-entities.test" />
+    <None Include="httrack-3.49.5\tests\01_engine-hashtable.test" />
+    <None Include="httrack-3.49.5\tests\01_engine-idna.test" />
+    <None Include="httrack-3.49.5\tests\01_engine-simplify.test" />
+    <None Include="httrack-3.49.5\tests\10_crawl-simple.test" />
+    <None Include="httrack-3.49.5\tests\11_crawl-cookies.test" />
+    <None Include="httrack-3.49.5\tests\11_crawl-idna.test" />
+    <None Include="httrack-3.49.5\tests\11_crawl-international.test" />
+    <None Include="httrack-3.49.5\tests\11_crawl-longurl.test" />
+    <None Include="httrack-3.49.5\tests\11_crawl-parsing.test" />
+    <None Include="httrack-3.49.5\tests\12_crawl_https.test" />
+    <None Include="httrack-3.49.5\tests\check-network.sh" />
+    <None Include="httrack-3.49.5\tests\crawl-test.sh" />
+    <None Include="httrack-3.49.5\tests\Makefile.am" />
+    <None Include="httrack-3.49.5\tests\Makefile.in" />
+    <None Include="httrack-3.49.5\tests\run-all-tests.sh" />
+    <None Include="httrack-3.49.5\.gitmodules" />
+    <None Include="httrack-3.49.5\AUTHORS" />
+    <None Include="httrack-3.49.5\ChangeLog" />
+    <None Include="httrack-3.49.5\compile" />
+    <None Include="httrack-3.49.5\config.guess" />
+    <None Include="httrack-3.49.5\config.h.in" />
+    <None Include="httrack-3.49.5\config.sub" />
+    <None Include="httrack-3.49.5\configure" />
+    <None Include="httrack-3.49.5\configure.ac" />
+    <None Include="httrack-3.49.5\COPYING" />
+    <None Include="httrack-3.49.5\depcomp" />
+    <None Include="httrack-3.49.5\gpl-fr.txt" />
+    <None Include="httrack-3.49.5\greetings.txt" />
+    <None Include="httrack-3.49.5\history.txt" />
+    <None Include="httrack-3.49.5\httrack-doc.html" />
+    <None Include="httrack-3.49.5\INSTALL" />
+    <None Include="httrack-3.49.5\INSTALL.Linux" />
+    <None Include="httrack-3.49.5\install-sh" />
+    <None Include="httrack-3.49.5\lang.def" />
+    <None Include="httrack-3.49.5\lang.indexes" />
+    <None Include="httrack-3.49.5\license.txt" />
+    <None Include="httrack-3.49.5\ltmain.sh" />
+    <None Include="httrack-3.49.5\Makefile.am" />
+    <None Include="httrack-3.49.5\Makefile.in" />
+    <None Include="httrack-3.49.5\NEWS" />
+    <None Include="httrack-3.49.5\README" />
+    <None Include="httrack-3.49.5\README.md" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
